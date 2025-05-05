@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Giriş ve Kayıt Formu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="form-container" id="loginFormContainer">
+            <h1>Hoş Geldiniz</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Kullanıcı Adı</label>
+                    <input type="text" id="loginUsername" placeholder="Kullanıcı adınızı girin" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Şifre</label>
+                    <input type="password" id="loginPassword" placeholder="Şifrenizi girin" required>
+                </div>
+                <div class="options">
+                    <label class="remember-me">
+                        <input type="checkbox" id="rememberMe">
+                        Beni Hatırla
+                    </label>
+                    <a href="#" class="forgot-password">Şifremi Unuttum</a>
+                </div>
+                <button type="submit" class="btn">Giriş Yap</button>
+                <div class="register">
+                    <span>Hesabın yoksa </span>
+                    <a href="#" class="register-link" id="showRegisterForm">Kayıt Ol</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container hidden" id="registerFormContainer">
+            <h1>Kayıt Ol</h1>
+            <form id="registerForm">
+                <div class="input-group">
+                    <label for="newUsername">Kullanıcı Adı</label>
+                    <input type="text" id="newUsername" placeholder="Kullanıcı adınızı girin" required>
+                </div>
+                <div class="input-group">
+                    <label for="newPassword">Şifre</label>
+                    <input type="password" id="newPassword" placeholder="Şifrenizi girin" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirmPassword">Şifreyi Onayla</label>
+                    <input type="password" id="confirmPassword" placeholder="Şifrenizi tekrar girin" required>
+                </div>
+                <button type="submit" class="btn">Kayıt Ol</button>
+                <div class="register">
+                    <span>Zaten hesabınız var mı? </span>
+                    <a href="#" class="login-link" id="showLoginForm">Giriş Yap</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
