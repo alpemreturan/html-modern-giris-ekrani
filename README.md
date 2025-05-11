@@ -4,7 +4,7 @@
 *Eğer geliştirmek isteyen varsa verileri database ile tutabilir ancak şimdilik javascript (script.js) ile veriler basit şekilde tutuluyor ve index.html kapandıktan sonra bu veriler kaydedilmiyor...*
 
 (*With this file I shared, you can create a similar login and registration panel to today's modern and dynamic web pages*
-*If anyone wants to develop, they can keep the data with a database, but for now, the data is kept simply with javascript. After the index.html is closed, this data is not recorded.*)
+*If anyone wants to develop, they can keep the data with a database, but for now, the data is kept simply with javascript. After the index.html is closed, this data is not recorded..*)
 
 
 **Önizleme (Preview)**
