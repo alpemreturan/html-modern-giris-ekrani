@@ -7,7 +7,7 @@
 *If anyone wants to develop, they can keep the data with a database, but for now, the data is kept simply with javascript. After the index.html is closed, this data is not recorded...*)
 
 
-**Önizleme. (Preview)**
+**Önizleme (Preview)**
 
 
 
